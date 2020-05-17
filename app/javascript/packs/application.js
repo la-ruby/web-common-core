@@ -15,3 +15,11 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// Make $ available on the window object
+// for SJR views and jQuery plugins
+// that may expect `$` to be globally available.
+require('expose-loader?$!jquery')
+
+import 'bootstrap'
+import '../stylesheets/application'
