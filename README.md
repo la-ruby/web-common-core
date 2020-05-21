@@ -10,6 +10,6 @@
 ### Features
 
 + Rails 6-0-stable 39de115697
-+ Bootstrap __REPLACEME4__ :sparkles:
++ Bootstrap 4.5.0 :sparkles:
 
 
