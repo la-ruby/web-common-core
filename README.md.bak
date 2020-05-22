@@ -12,7 +12,7 @@
 + Rails 6-0-stable 39de115697
 + Bootstrap (4.5.0) :sparkles:
 + a2d3b98 :star:
-+ __REPLACEME6__ :muscle:
++ pundit (2.1.0) :muscle:
 + React (__REPLACEME7__) :purple_heart:
 
 
