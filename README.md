@@ -10,7 +10,7 @@ Features
 + Bootstrap (4.5.0) :sparkles:
 + devise (4.7.1) :star:
 + pundit (2.1.0) :muscle:
-+ React (__REPLACEME9__) :purple_heart:
++ React (16.13.1) :purple_heart:
 + ag-Grid :fire:
 
 Built on 2020-05-25_20-49-02 by [github.com/la-ruby/ppa-sliar-etaerc](https://github.com/la-ruby/ppa-sliar-etaerc/blob/0fc2b77/create-rails-app)
