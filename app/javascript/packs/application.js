@@ -30,3 +30,13 @@ import "@fortawesome/fontawesome-free/js/all";
 
 //css
 import '../stylesheets/application'
+
+import ExampleTimer from '../components/example_timer'
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <ExampleTimer exampleProp="exampleTimerProp" />,
+    document.body.appendChild(document.createElement('div')),
+  )
+})
+
