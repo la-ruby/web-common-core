@@ -42,3 +42,14 @@ document.addEventListener('turbolinks:load', () => {
   }
 })
 
+
+import AgGrid from '../components/ag_grid'
+// https://stackoverflow.com/a/44739914
+// ...if this is included in your application.js, then any page with a #whatever element will get the component.
+document.addEventListener('turbolinks:load', () => {
+  var element = document.getElementById("component-6f75c8a");
+  if (element) {
+    ReactDOM.render(<AgGrid name="example" />, element)
+  }
+})
+
