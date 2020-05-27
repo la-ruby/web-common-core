@@ -31,7 +31,7 @@ import "@fortawesome/fontawesome-free/js/all";
 //css
 import '../stylesheets/application'
 
-import ExampleTimer from '../components/example_todo'
+import ExampleTodo from '../components/example_todo'
 
 // https://stackoverflow.com/a/44739914
 // ...if this is included in your application.js, then any page with a #whatever element will get the component.
