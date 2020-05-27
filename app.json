@@ -1,0 +1,12 @@
+{
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rails test"
+      },
+      "addons":[
+        "heroku-postgresql"
+      ]
+    }
+  }
+}
