@@ -32,3 +32,8 @@ import "@fortawesome/fontawesome-free/js/all";
 
 //css
 import '../stylesheets/application'
+// show flash messages
+document.addEventListener("turbolinks:load", function() {
+  console.log("fired1")
+  $('.toast').toast('show')
+})
