@@ -37,3 +37,15 @@ document.addEventListener("turbolinks:load", function() {
   console.log("fired1")
   $('.toast').toast('show')
 })
+
+import ExampleTodo from '../components/example_todo'
+
+// https://stackoverflow.com/a/44739914
+// ...if this is included in your application.js, then any page with a #whatever element will get the component.
+document.addEventListener('turbolinks:load', () => {
+  var element = document.getElementById("component-10aaaf7");
+  if (element) {
+    ReactDOM.render(<ExampleTodo name="example" />, element)
+  }
+})
+
