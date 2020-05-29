@@ -6,9 +6,4 @@ class GalleryControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get page_two" do
-    get gallery_page_two_url
-    assert_response :success
-  end
-
 end
