@@ -7,7 +7,7 @@
 Features
 
 + Rails 6-0-stable e7154f346a
-+ Bootstrap (__REPLACEME6__) :sparkles:
++ Bootstrap () :sparkles:
 + __REPLACEME7__ :star:
 + __REPLACEME8__ :muscle:
 + React (__REPLACEME9__) :purple_heart:
