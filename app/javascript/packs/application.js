@@ -21,3 +21,7 @@ import ReactDOM from 'react-dom'
 
 
 import "controllers"
+// show flash messages
+document.addEventListener("turbolinks:load", function() {
+  $('.toast').toast('show')
+})
