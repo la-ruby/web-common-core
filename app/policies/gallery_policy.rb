@@ -4,4 +4,7 @@ class GalleryPolicy < ApplicationPolicy
       scope.all
     end
   end
+  def page_two
+    true
+  end
 end
