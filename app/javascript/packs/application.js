@@ -32,3 +32,7 @@ import 'bootstrap'
 
 //css
 import '../stylesheets/application'
+// show flash messages
+document.addEventListener("turbolinks:load", function() {
+  $('.toast').toast('show')
+})
