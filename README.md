@@ -8,7 +8,7 @@ Features
 
 + Rails 6-0-stable e7154f346a
 + Bootstrap () :sparkles:
-+ __REPLACEME7__ :star:
++ devise (4.7.1) :star:
 + __REPLACEME8__ :muscle:
 + React (__REPLACEME9__) :purple_heart:
 + ag-Grid :fire:
