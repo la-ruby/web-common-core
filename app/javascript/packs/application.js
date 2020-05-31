@@ -17,3 +17,9 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import "controllers"
+
+// show flash messages
+document.addEventListener("turbolinks:load", function() {
+  $('.toast').toast('show')
+})
+
