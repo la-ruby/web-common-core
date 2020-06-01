@@ -18,3 +18,11 @@ require("channels")
 require('expose-loader?$!jquery')
 
 import "controllers"
+
+// show flash messages
+document.addEventListener("turbolinks:load", function() {
+          if ( typeof $('.toast').toast == "function" ) {
+    $('.toast').toast('show')
+  }
+})
+
