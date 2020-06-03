@@ -17,6 +17,9 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 require('expose-loader?$!jquery')
 
+import 'bootstrap'
+import '../stylesheets/application'
+
 import "controllers"
 
 // show flash messages
