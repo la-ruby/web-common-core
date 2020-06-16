@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "devise"
 gem "pundit"
 gem 'rack-mini-profiler'
+gem 'simplecov', '0.16', require: false, group: :test
