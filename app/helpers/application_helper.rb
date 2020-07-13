@@ -1,2 +1,4 @@
 module ApplicationHelper
-end
+  def title(str)
+    content_for(:title) { str }
+  end
