@@ -1,5 +1,19 @@
+/* like https://the7.io/nutritionist/#!/order */
+
+$dark-pastel-green: #7bb519;
+$solitude: #f4f5f7;
+$aluminium: #8b9091;
+$zircon: #e5e6e9;                                  /* used as btn-secondary bg color */
+$unused: #b4b5bb;
+
+$main-brand-color: $dark-pastel-green;             /* This color should be eye-catching but not harsh. It can be liberally applied to your layout as its main identity */
+$light-shades:     $solitude;                      /* Use this color as the background for your dark-on-light designs, or the text color of an inverted design */
+$dark-shades:      $aluminium;                     /* Use as the text color for dark-on-light designs, or as the background for inverted designs */
+$light-accent:     $zircon;                        /* can be used to bring attention to design elements by contrasting with the rest of the palette */
+$dark-accent:      darken($main-brand-color, 20%); /* Another accent color to consider. Not all colors have to be used - sometimes a simple color scheme works best */
+
 @import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
+@import "acme_variables";  //customized
 @import "node_modules/bootstrap/scss/mixins";
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/reboot";
@@ -37,3 +51,7 @@
 //@import "node_modules/bootstrap/scss/print";
 //@import 'node_modules/bootstrap/scss/bootstrap';
 // ^ this bit is not needed, as we're importing individually above
+
+@import "acme_buttons"
+
+@import "sessions"
