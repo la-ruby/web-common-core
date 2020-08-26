@@ -10,7 +10,7 @@ Features
 + Bootstrap () :sparkles:
 + devise (4.7.2) :star:
 + pundit (2.1.0) :muscle:
-+ React () :purple_heart:
++ React (__REPLACEME9__) :purple_heart:
 + ag-Grid :fire:
 
 Built on 2020-08-26_19-11-24 by [github.com/la-ruby/create-rails-app](https://github.com/la-ruby/create-rails-app/blob/e60f69c/create-rails-app)
