@@ -53,3 +53,4 @@ gem 'rbtrace'
 gem 'stackprof'
 gem 'rack-mini-profiler'
 gem 'flamegraph'
+gem 'simplecov', '0.16', require: false, group: :test
