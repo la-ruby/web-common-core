@@ -49,3 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "devise"
 gem "pundit"
+gem 'rbtrace'
+gem 'stackprof'
+gem 'rack-mini-profiler'
+gem 'flamegraph'
