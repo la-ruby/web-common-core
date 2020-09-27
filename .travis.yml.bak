@@ -1,5 +1,5 @@
 rvm:
-  - 2.7.1
+  - __REPLACEME1__
 
 services:
   - postgresql
